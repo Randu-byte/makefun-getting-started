@@ -91,6 +91,14 @@ If this guide saved you an hour of confusion, begin your own first entry through
 
 It costs nothing to look at the board, and the requirements pages — as you now know — are where the real game is explained.
 
+## Field notes from entering this very guide
+
+This repository is itself an entry in the bounty it describes, so here is what the process taught us that the rules pages only imply:
+
+- **Some steps belong to the human, not the agent.** The repository's About box (description, homepage, topics) and the `screenshot.png` upload had to be done by the account owner in GitHub's own interface — an agent connected through an API may be able to push code yet have no way to touch those. Budget ten minutes of human clicking per GitHub-route entry.
+- **A license file is not always a license.** Our first `LICENSE` was a perfectly standard MIT text, and GitHub detected it as MIT — but the bounty also reads the file itself and wants an explicit `SPDX-License-Identifier: MIT` line. One line, added in a minute, was the difference between pass and fail.
+- **Run the kit's `check` before you feel finished.** Both of our failures were invisible from the repository page and obvious in the check output, each with its fix spelled out. The check is not a formality; it is the cheapest grading you will ever get.
+
 ## Run it
 
 ```sh
